@@ -1,0 +1,270 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="order-now-button">
+      <button onclick="document.querySelector('#order-now-section').scrollIntoView({ behavior: 'smooth' })">Order Now</button>
+    </div>
+    <div class="logo">
+      <img src="https://i.postimg.cc/2yPcTs42/20240412-001208.png" alt="Logo">
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#footer">Contact</a></li> <!-- Added Contact link -->
+      </ul>
+      <img src="https://i.postimg.cc/0NqpYYdK/image.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu(this)">
+    </nav>
+  </header>
+
+  <div class="menu-background"></div>
+
+  <section id="home" class="home-section">
+    <div class="content">
+      <img src="Imagen_macc.png" alt="Myself Image" class="myself-image">
+
+      <p><span class="greeting">Hola, Soy</span> <span class="learn-more"><a href="#about">Conocer más</a></span></p>
+      <p><span class="expertise">Tengo experiencia en frontend y backend.<br>Experiencia en metalurgia extractiva.<br>Experiencia en costos y presupuestos.<br>Experiencia en programación y planificación de obras.<br></span></p>
+      <p><span class="name">Javier Alex Quispe Almerco</span></p>
+      <p><span class="social-media">Encuentrame en las redes sociales</span></p>
+
+      <div class="social-icons">
+        <a href="https://www.instagram.com/jaxq7/" class="icon"><img src="https://i.postimg.cc/B676BJPF/image.png" alt="Icon 3"></a>
+        <a href="https://www.facebook.com/" class="icon"><img src="https://i.postimg.cc/d3FWnKMq/image.png" alt="Icon 4"></a>
+        <a href="https://www.pinterest.es/" class="icon"><img src="https://i.postimg.cc/Bt9JmbSj/image.png" alt="Icon 1"></a>
+        <a href="https://www.linkedin.com/feed/" class="icon"><img src="https://i.postimg.cc/yNV8qDF9/image.png" alt="Icon 2"></a>
+      </div>
+
+      <button class="start-conversation" onclick="redirectToPage()">Siga explorando</button>
+    </div>
+  </section>
+
+  <div class="circle-overlay"></div>
+  <div class="circle-overlay-2"></div>
+
+  <section id="about" class="about-section">
+    <div class="content">
+      <h2>Acerca de mí</h2>
+      <p>Colegiado y habilitado por el Colegio de Ingenieros del consejo departamental de Pasco.
+        Ingeniero con experiencia laboral en seguridad y salud ocupacional, procesos metalúrgicos,
+        hidrometalurgicos y medioambiental con capacidad de liderazgo en dirigir y motivar al equipo de
+        trabajo en el logro de los objetivos y metas. Me considero una persona responsable, creativa, con
+        iniciativa y puntualidad, asumo con agrado los retos y metas que su organización me pudiera
+        plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, en
+        condiciones de alta presión, así como para resolver problemas eficientemente y lograr las metas
+        trazadas por la empresa y mi grupo de trabajo, Conocimiento en sistemas informáticos de
+        aplicación. Con amplia visión para el beneficio tanto colectivo como personal y capacidad
+        demostrada para ejercer cargos de plena confianza.
+        EXPERIENCIA!</p>
+
+      <h3>Experience</h3>
+      <ul class="experience-list">
+        <li>5+ años en empresas mineras del centro del perú.</li>
+        <li>Responsable de proyectos de montaje y operación de plantas concentradoras.</li>
+
+      </ul>
+    </div>
+  </section>
+  <section>
+    <video width="1520" height="840" autoplay
+    controls>
+        <source src="Video ensayo.mp4" type="video/mp4">
+        <source src="Video-ensayo.ogv" type="video/ogg">
+        Tu navegador no es compatible con videos HTML5.
+    </video>
+    
+  </section>
+  <section id="services" class="services-section">
+    <h2>SERVICES</h2>
+    <div class="service-cards">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>
+          <li>Figma Website design</li>
+          <li>Adobe Xd Web design</li>
+          <li>Invision Web design</li>
+          <li>UI/UX web design</li>
+          <li>Figma to HTML, CSS, JS</li>
+          <li>XD to HTML, CSS, JS</li>
+          <li>PSD to HTML, CSS, JS</li>
+          <li>WordPress web design</li>
+          <li>Webflow web design</li>
+          <li>Wix web design</li>
+        </p>
+      </div>
+      <div class="service-card">
+        <h3>Graphic Design</h3>
+        <p>
+          <li>Logo design</li>
+          <li>Banner/Poster</li>
+          <li>Brochure/Flyer</li>
+          <li>Thumbnails</li>
+          <li>Ebook, Handbook</li>
+          <li>Ebook cover design</li>
+          <li>Booklet</li>
+          <li>Pdf Page design</li>
+          <li>PowerPoint Presentation</li>
+          <li>CV/Resume</li>
+          <li>Product/Label design</li>
+          <li>Card design</li>
+        </p>
+      </div>
+      <div class="service-card">
+        <h3>Excel Services</h3>
+        <p>
+          <li>Data Entry</li>
+          <li>Data Management</li>
+          <li>Data Analysis</li>
+          <li>Data Visualization</li>
+          <li>Budgeting</li>
+          <li>Charting</li>
+          <li>Graphing</li>
+          <li>Spreadsheets</li>
+          <li>Tables</li>
+          <li>Accounting</li>
+          <li>Financial planning</li>
+          <li>Inventory management</li>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio-section">
+    <div class="content">
+      <h2>PORTFOLIO</h2>
+      <p>Click on below images to view portfolio on other page.</p>
+      <div class="portfolio-images">
+        <a href="link-to-page-1.html" class="portfolio-image image-1"></a>
+        <a href="link-to-page-2.html" class="portfolio-image image-2"></a>
+        <a href="link-to-page-3.html" class="portfolio-image image-3"></a>
+      </div>
+      <div class="arrow-container">
+        <div class="arrow left-arrow"></div>
+        <div class="arrow right-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="order-now-section" class="order-now-section">
+    <div class="content">
+      <h2>NUEVAS ORDENES</h2>
+      <p>Para preguntas y ordenes, puedes contactarte al WhatsApp:</p>
+      <a href="https://web.whatsapp.com/" class="chat-whatsapp-button">Converse por WhatsApp</a>
+      <p class="order-on-fiverr">Tambien puedes generar una orden en Fiverr.</p>
+      <p class="for-graphics-design">Para diseño gráfico</p>
+      <p class="for-web-development">Para desarrollador web</p>
+      <p class="for-excel-services">Para servicios en excel</p>
+      <div class="click-here-buttons">
+        <button class="click-here">Click Aquí</button>
+        <button class="click-here">Click Aquí</button>
+        <button class="click-here">Click Aquí</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="any-questions-section" class="any-questions-section">
+    <form>
+      <h2>¿Alguna pregunta?</h2>
+      <p>Si tu tienes alguna pregunta o duda, Complete el formulario.</p>
+      <div class="input-group">
+        <input type="text" placeholder="Nombre" />
+        <input type="email" placeholder="Correo electrónico" />
+      </div>
+      <textarea placeholder="¿Cúal es tu pregunta o duda?"></textarea>
+      <button type="submit">Enviar</button>
+
+      <img src="https://i.postimg.cc/DySBkpjn/Graphics-Design-8.png" alt="Graphic Design" class="image1">
+      <img src="https://i.postimg.cc/DySBkpjn/Graphics-Design-8.png" alt="Graphic Design" class="image2">
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#order-now-section">Order Now</a></li>
+          <li><a href="#any-questions-section">Any Questions?</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Graphics Design</a></li>
+          <li><a href="#services">Web Development</a></li>
+          <li><a href="#services">Excel Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-column contact-us">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>Phone: +051 980846073</li>
+          <li>------------------------------</li>
+          <li>WhatsApp: +051 980846073</li>
+          <li>------------------------------</li>
+          <li>Email: javier.quispe@cip.org.pe</li>
+        </ul>
+        <img src="https://i.postimg.cc/2yPcTs42/20240412-001208.png" alt="Footer Image" class="footer-image">
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      const menuIcon = document.querySelector('.menu-icon');
+      const menuBackground = document.querySelector('.menu-background');
+      navLinks.classList.toggle('active');
+      menuBackground.classList.toggle('active');
+      // Change the menu icon image source to the alternative image if it's currently the original image, otherwise revert it
+      if (menuIcon.src === 'https://i.postimg.cc/0NqpYYdK/image.png') {
+        menuIcon.src = 'https://i.postimg.cc/X7BQV9fG/image.png';
+      } else {
+        menuIcon.src = 'https://i.postimg.cc/0NqpYYdK/image.png';
+      }
+    }
+
+    function scrollImages(direction) {
+      const container = document.querySelector('.portfolio-images');
+      const scrollStep = 300; // Adjust scroll step as needed
+      const scrollDistance = direction === 'left' ? -scrollStep : scrollStep;
+      container.scrollBy({
+        top: 0,
+        left: scrollDistance,
+        behavior: 'smooth'
+      });
+    }
+    document.querySelector('.left-arrow').addEventListener('click', function() {
+      scrollImages('left');
+    });
+    document.querySelector('.right-arrow').addEventListener('click', function() {
+      scrollImages('right');
+    });
+  </script>
+
+</body>
+
+</html>
+
+<script src="script.js"></script>

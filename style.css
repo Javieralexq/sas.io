@@ -1,0 +1,2842 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: none;
+    padding: 36px 230px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.logo img {
+    width: 130px; /* Adjust the width as needed */
+    height: auto;
+}
+.logo {
+    position: absolute;
+    top: -10px;
+    left: 100px;
+}
+
+.order-now-button {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    z-index: 999;
+}
+
+.order-now-button button {
+    background-color: #D3D3D3;
+    border: none;
+    color: black;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+.order-now-button button:hover {
+    background-color: #BDBDBD;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0 17px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    width: 30px;
+    display: none; /* Hide initially on desktop */
+    cursor: pointer;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    z-index: 1000; /* Ensure it's in front */
+}
+
+/* Background overlay for menu */
+.menu-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 9; /* Below the menu but above everything else */
+    display: none; /* Initially hidden */
+}
+
+
+
+.home-section {
+   position: relative;
+ overflow: hidden;
+    padding: 325px 0;
+}
+
+.circle-overlay {
+    position: absolute;
+    top: 90px;
+    right: -30px;
+    width: 530px;
+    height: 530px;
+    background-color: rgba(167, 167, 167, 0.5);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+.circle-overlay-2 {
+  overflow: hidden;
+   position: absolute;
+    top: -70px;
+    left: -180px;
+    width: 830px; 
+    height:830px;
+    background-color: rgba(167, 167, 167, 0.5); 
+    border-radius: 50%; 
+    z-index: -1; 
+}
+/* Add this CSS after your existing styles */
+
+.name {
+    font-family: 'Inter', sans-serif; 
+  font-size: 54px;
+    font-weight: 600; 
+    position: absolute; 
+    top: 155px; 
+    left: 80px; 
+    z-index: 1;
+}
+
+
+.greeting {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 35px;
+    font-weight: 400; /* Semi-bold weight */
+    position: absolute; /* Position absolutely */
+    top: 110px; /* Adjust vertical position */
+    left: 100px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure text is above other content */
+}
+
+
+.expertise {
+  text-align: center;
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 17px;
+    font-weight: 500; /* Regular weight */
+    position: absolute; /* Position absolutely */
+    top: 230px; /* Adjust vertical position */
+    left: 100px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure text is above other content */
+}
+
+
+.learn-more {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+  
+    font-size: 21px;
+    font-weight: 500; /* Regular weight */
+    position: absolute; /* Position absolutely */
+    top: 310px; /* Adjust vertical position */
+    left: 236px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure text is above other content */
+  
+}
+
+.learn-more a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set color to black */
+}
+.learn-more a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.start-conversation {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 530;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    position: absolute; 
+    top: 372px;
+    left: 202px; */
+    z-index: 1;
+}
+.start-conversation:hover {
+    background-color: grey; /* Hover background color */
+}
+
+
+
+.social-media {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 21px;
+    font-weight: 400; /* Regular weight */
+    position: absolute; /* Position absolutely */
+    top: 440px; /* Adjust vertical position */
+    left: 168px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure text is above other content */
+}
+
+
+
+.social-icons {
+    position: absolute;
+    top: 480px;
+    left: 188px;
+}
+
+.social-icons a {
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    filter: grayscale(100%); /* Convert icons to grey */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+
+
+.myself-image {
+    position: absolute;
+    top: 63px; /* Adjust as needed */
+   right: 45px; /* Adjust as needed */
+    width: 400px; /* Adjust the width as needed */
+    height: auto;
+    z-index: 1; /* Ensure the image stays above other content */
+}
+
+.about-section {
+    background-image: url('https://i.postimg.cc/Mpvd5zxp/CHEAP-BUT-PROFESSIONAL-35-1-1.png');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+    padding: 70px 0 10px;/* Adjusted padding */
+}
+
+
+.about-section h2 {
+    font-size: 50px; /* Heading size */
+    color: white; /* Heading color */
+    margin-top: -30px; /* Heading margin top */
+    margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+.about-section p {
+ text-align: justify;
+    font-size: 18px; /* Paragraph font size */
+    color: white; 
+  font-weight: 800px;
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Center the content */
+.about-section .content {
+  
+    max-width: 800px; /* Maximum width of content */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.about-section h3 {
+    font-size: 44px; /* Subsection heading size */
+    color: white; /* Subsection heading color */
+    margin-top: 40px; /* Space above the subsection */
+    margin-bottom: 20px; /* Space below the subsection */
+}
+
+
+
+.about-section .experience-list {
+    margin-left: 90px; /* Add left margin to the list */
+    padding-left: 0; /* Remove default padding */
+}
+
+.about-section .experience-list li {
+    font-size: 18px;             
+    color: white;
+    font-weight:100px; 
+    line-height: 1; /* Line height for better readability */
+    margin-bottom: 10px; /* Space between list items */
+    list-style-type: disc; /* Use disc bullets */
+   text-align: left; /* Align text to the left */
+  
+}
+
+/* Center the "Experience" subsection content */
+.about-section .content {
+  
+    max-width: 800px; /* Maximum width of content */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+  .services-section {
+            background-image: url('https://i.postimg.cc/g0D9hY7q/CHEAP-BUT-PROFESSIONAL-34-1.png');
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background */
+            background-repeat: no-repeat; /* Do not repeat the background */
+            padding: 60px 0; /* Adjust padding */
+        }
+
+        .services-section h2 {
+            font-size: 50px; /* Heading size */
+            color: black; /* Heading color */
+            margin-top: 0; /* Heading margin top */
+            margin-bottom: 50px; /* Space between heading and cards */
+            text-align: center; /* Center the heading text */
+        }
+
+        .services-section .service-cards {
+            display: flex; /* Use flexbox for layout */
+          
+            justify-content: center; /* Center the cards horizontally */
+            flex-wrap: wrap; /* Allow wrapping of cards */
+            gap: 20px; /* Space between cards */
+        }
+
+     .services-section .service-card {
+        font-family: 'Inter', sans-serif; /* Use Inter font */
+          font-weight: 300; /* Bold weight */
+                 color: white;
+    background-color: black; /* Card background color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    width: 240px; /* Fixed width */
+    height: 280px; /* Fixed height */
+    text-align: left; /* Center text inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-bottom: 30px; /* Space between cards */
+}
+
+
+     .services-section .service-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.services-section .service-card p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.portfolio-section {
+    background-image: url('https://i.postimg.cc/02Zbc6NM/CHEAP-BUT-PROFESSIONAL-55.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.portfolio-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.portfolio-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+}
+
+.portfolio-image {
+  margin-bottom: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-image:hover {
+    transform: translateY(-10px); /* Add a slight hover effect */
+}
+
+.image-1 {
+    background-image: url('https://i.postimg.cc/GhtzbcrT/Untitled-design-2.png');
+}
+
+.image-1:hover {
+    background-image: url('https://i.postimg.cc/Wp8KyvJy/Graphics-Design-2.png');
+}
+
+.image-2 {
+    background-image: url('https://i.postimg.cc/J06qjF3h/Untitled-design-1.png');
+}
+
+.image-2:hover {
+    background-image: url('https://i.postimg.cc/B6H8vp28/Graphics-Design-1.png');
+}
+
+.image-3 {
+    background-image: url('https://i.postimg.cc/tgW282br/Untitled-design.png');
+}
+
+.image-3:hover {
+    background-image: url('https://i.postimg.cc/cCFbtRSW/Graphics-Design.png');
+}
+
+
+
+
+
+
+
+.order-now-section {
+       background-image: url('https://i.postimg.cc/3R4rXTrd/CHEAP-BUT-PROFESSIONAL-33-1.png');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+   overflow: hidden;
+    text-align: center;
+    padding: 200px 0px; /* Adjusted padding */
+}
+
+.order-now-section h2 {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 50px; /* Adjust font size as needed */
+    font-weight: 600; /* Bold weight */
+    color: black; /* Text color */
+    margin-bottom: 10px; /* Space below heading */
+    position: relative; /* Position absolutely */
+    /* Adjust the following as needed */
+    top: -210px; /* Vertical position */
+    left: 0px; /* Horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section p {
+   font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: 400; /* Bold weight */
+    color: black; /* Text color */
+    margin-bottom: 10px; /* Space below heading */
+    position: relative; /* Position absolutely */
+    /* Adjust the following as needed */
+    top: -220px; /* Vertical position */
+    left: 0px; /* Horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+.order-now-section .chat-whatsapp-button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 6px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    display: inline-block; /* Ensures the button styles apply correctly */
+    margin-top: -30px; /* Adjusted to move the button upward */
+    margin-bottom: 10px; /* Space below the button */
+    position: relative; /* Position absolutely */
+    top: -195px; /* Adjust vertical position */
+    left: 0px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the button is above other content */
+}
+
+.order-now-section .chat-whatsapp-button:hover {
+    background-color: grey;
+}
+
+.order-now-section .order-on-fiverr {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 26px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -180px; /* Adjust vertical position */
+    left: 0px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-graphics-design {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -160px; /* Adjust vertical position */
+    left: -269px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-web-development {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -204px; /* Adjust vertical position */
+    left: -5px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-excel-services{
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -248px; /* Adjust vertical position */
+    left: 260px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+
+
+/* Add this CSS after your existing styles */
+
+.click-here-buttons {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+  margin-bottom: -140px;
+    margin-top: -240px; /* Adjust spacing */
+}
+
+.click-here-buttons .click-here {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    margin: 0 70px; /* Adjust spacing between buttons */
+}
+
+.click-here-buttons .click-here:hover {
+    background-color: grey;
+}
+
+
+
+
+.any-questions-section {
+    background-color: none;
+    padding: 200px 0px 0px; /* Adjusted bottom padding */
+    position: relative; /* Create a positioning context */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.any-questions-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    top: -190px; /* Adjusted vertical position */
+    left: center;
+    z-index: 1;
+}
+
+.any-questions-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+  text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: -200px; /* Adjusted vertical position */
+    left: 0px;
+    z-index: 1;
+}
+
+.any-questions-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.any-questions-section form .input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 62%; /* Adjust as needed */
+    margin-top: -170px;
+    margin-bottom: 10px;
+    gap: 10px; /* Add gap between Name and Email fields */
+}
+
+.any-questions-section form .input-group input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #6F6F6F;
+    color: white;
+    border-radius: 20px;
+}
+
+.any-questions-section form textarea {
+    width: 60%;
+    height: 130px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #6F6F6F;
+    color: white;
+    margin-top: 10px;
+}
+
+.any-questions-section form button {
+    font-size: 15px;
+    margin-bottom: -130px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+
+.any-questions-section form button:hover {
+    background-color: grey; /* Hover background color */
+   
+}
+
+
+.any-questions-section form input::placeholder,
+.any-questions-section form textarea::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.image1 {
+    margin-bottom: -250px;
+    width: 460px;
+    height: auto;
+    position:relative; /* Adjust position to absolute */
+    top: -315px; /* Adjusted top position */
+    right: 660px; /* Adjusted right position */
+    z-index: -1; /* Ensure the image is behind the form */
+}
+
+.image2 {
+    margin-bottom: -250px;
+    width: 460px;
+    height: auto;
+    position: absolute; /* Adjust position to absolute */
+    top: 30px; /* Adjusted top position */
+    right: -200px; /* Adjusted right position */
+    z-index: -1; /* Ensure the image is behind the form */
+    transform: scaleX(-1); /* Flip horizontally */ 
+}
+
+ 
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    position: relative;
+    margin-top: auto; /* Push the footer to the bottom */
+   z-index: 1; /* Ensure footer is in the correct stacking context */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 1rem;
+    min-width: 200px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.footer-column h3 {
+  
+    margin-bottom: 1rem;
+    font-size: 2rem; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+.footer-column ul {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 160px; /* Adjust the padding as needed for proper alignment */
+    text-align: left; /* Align text to the left */
+}
+
+
+  
+.footer-column ul li {
+  
+    margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-column.contact-us ul {
+  
+    list-style-type: none; /* Remove bullets for Contact Us content */
+    padding-left: 120px; /* Reset padding for Contact Us */
+}
+
+  
+  
+.footer-column.contact-us ul li {
+    margin-bottom: 16px; /* Add margin between Contact Us items */
+}
+  
+
+
+
+.footer-column.contact-us {
+   
+    padding-right: 1rem; /* Add padding to the right for spacing */
+}
+
+.footer-image {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 15%; /* Ensure the image is responsive */
+    z-index: -1; /* Ensure the image is behind the text but above the background */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+
+
+
+
+
+  
+@media (max-width: 1132px) {
+  .home-section {
+   position: relative;
+ 
+    padding: 300px 0;
+}
+.logo img {
+ 
+    width: 130px; /* Adjust the width as needed */
+    height: auto;
+}
+  
+.circle-overlay {
+    top: 90px;
+    right:  -30px;
+    width: 480px; 
+    height: 480px;
+
+}
+
+
+.circle-overlay-2 {
+    top: -50px;
+    left: -180px;
+    width: 760px; 
+    height:760px;
+}
+
+.name {
+  font-size: 50px;
+    font-weight: 600; 
+    top: 155px; 
+    left: 80px;  
+}
+
+
+.greeting {
+    font-size: 32px;
+    font-weight: 400;
+    top: 117px;
+    left: 100px;  
+}
+
+
+.expertise {
+    font-size: 15.5px;
+    font-weight: 500; 
+    top: 230px;
+    left: 105px;
+}
+
+
+.learn-more {
+    font-size: 20px;
+    font-weight: 500; 
+    top: 300px;
+    left: 227px; 
+  
+}
+
+.start-conversation {
+  font-family: 'Inter', sans-serif; 
+    font-weight: 350; 
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 12px;
+    top: 352px;
+  left: 196px; }
+
+
+.social-media {
+    font-family: 'Inter', sans-serif; 
+    font-size: 20px;
+    font-weight: 400; 
+    top: 420px; 
+    left: 165px;
+}
+
+
+
+.social-icons {
+    position: absolute;
+    top: 460px;
+    left: 186px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 26px;
+    height: auto;
+    filter: grayscale(100%); /* Convert icons to grey */
+}
+
+
+.myself-image {
+    position: absolute;
+    top: 55px; /* Adjust as needed */
+   right: 45px; /* Adjust as needed */
+    width: 370px; /* Adjust the width as needed */
+    height: auto;
+    z-index: 1; /* Ensure the image stays above other content */
+}
+  
+  
+  
+.footer-column ul {
+    list-style-type: disc; /* Use disc bullets */
+    padding-left: 100px; /* Adjust the padding as needed for proper alignment */
+    text-align: left; /* Align text to the left */
+}
+
+
+
+.footer-column.contact-us ul {
+  
+    list-style-type: none; /* Remove bullets for Contact Us content */
+    padding-left: 70px; /* Reset padding for Contact Us */
+}
+
+  .image1 {
+    margin-bottom: -250px;
+    width: 460px;
+    height: auto;
+    position:relative; /* Adjust position to absolute */
+    top: -300px; /* Adjusted top position */
+    right: 470px; /* Adjusted right position */
+    z-index: -1;
+}
+.image2 {
+    margin-bottom: -250px;
+    width: 460px;
+    height: auto;
+    position: absolute; /* Adjust position to absolute */
+    top: 30px; /* Adjusted top position */
+    right: -200px; /* Adjusted right position */
+    z-index: -1; /* Ensure the image is behind the form */
+    transform: scaleX(-1); /* Flip horizontally */
+  
+  
+}
+  
+.footer-column.contact-us ul li {
+      font-size: 0.9rem;
+    margin-bottom: 16px; /* Add margin between Contact Us items */
+}
+  .footer-image {
+    position: absolute;
+    bottom: -10px;
+  }
+  .logo {
+    position: absolute;
+    top: -10px;
+    left: 60px;
+}
+}
+    
+  
+  
+  @media (max-width: 957px) {
+    
+    header { 
+      padding: 36px 210px;
+    font-size: 13px;
+    }
+    
+    nav ul li a {
+    padding: 0 15px;
+}
+    .order-now-button {
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    right: 70px; /* Adjust as needed */
+    z-index: 999; /* Ensure button stays on top */
+}
+      .home-section {
+   position: relative;
+
+    padding: 250px 0;
+}
+.logo img {
+ 
+    width: 130px; /* Adjust the width as needed */
+    height: auto;
+}
+  
+.circle-overlay {
+    top: 130px;
+    right:  -30px;
+    width: 400px; 
+    height: 400px;
+
+}
+
+
+.circle-overlay-2 {
+    top: -20px;
+    left: -150px;
+    width: 630px; 
+    height:630px;
+}
+
+.name {
+  font-size: 45px;
+    font-weight: 600; 
+    top: 155px; 
+    left: 60px;  
+}
+
+
+.greeting {
+    font-size: 30px;
+    font-weight: 400;
+    top: 120px;
+    left: 80px;  
+}
+
+
+.expertise {
+    font-size: 14.5px;
+    font-weight: 500; 
+    top: 220px;
+    left: 80px;
+}
+
+
+.learn-more {
+    font-size: 20px;
+    font-weight: 500; 
+    top: 280px;
+    left: 190px; 
+  
+}
+
+.start-conversation {
+  font-family: 'Inter', sans-serif; 
+    font-weight: 350; 
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 12px;
+    top: 325px;
+  left: 160px; }
+
+
+.social-media {
+    font-family: 'Inter', sans-serif; 
+    font-size: 20px;
+    font-weight: 400; 
+    top: 380px; 
+    left: 135px;
+}
+
+
+
+.social-icons {
+    position: absolute;
+    top: 415px;
+    left: 165px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 26px;
+    height: auto;
+    filter: grayscale(100%); /* Convert icons to grey */
+}
+
+
+.myself-image {
+    position: absolute;
+    top: 85px; /* Adjust as needed */
+   right: 35px; /* Adjust as needed */
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    z-index: 1; /* Ensure the image stays above other content */
+}
+    
+.portfolio-images {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+}
+
+.portfolio-image {
+  margin-bottom: 40px;
+    width: 260px;
+    height: 260px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+    .any-questions-section form button {
+    font-size: 15px;
+    margin-bottom: -120px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+
+.image1 {
+    margin-bottom: -250px;
+    width: 460px;
+    height: auto;
+    position:relative; /* Adjust position to absolute */
+    top: -318px; /* Adjusted top position */
+    right: 450px; /* Adjusted right position */
+    z-index: -1; /* Ensure the image is behind the form */
+}
+
+.image2 {
+    margin-bottom: -250px;
+    width: 460px;
+    height: auto;
+    position: absolute; /* Adjust position to absolute */
+    top: 30px; /* Adjusted top position */
+    right: -220px; /* Adjusted right position */
+    z-index: -1; /* Ensure the image is behind the form */
+    transform: scaleX(-1); /* Flip horizontally */ 
+}
+  }
+  
+  
+  
+  
+@media (max-width: 900px) {
+  header { 
+      padding: 36px 190px;
+    font-size: 13px;
+    }
+    
+    nav ul li a {
+    padding: 0 15px;
+}
+.services-section  {
+  padding: 10px 0;
+  }
+     .services-section .service-card {
+        font-weight: 200; /* Bold weight */   
+    padding: 20px; /* Padding inside the card */
+    width: 210px; /* Fixed width */
+    height: 270px; /* Fixed height */
+    margin-bottom: 30px; /* Space between cards */
+}
+
+        .services-section .service-card h3 {
+        margin-top: 0px;
+            font-size: 24px; /* Card heading size */
+            margin-bottom: -10px;
+        }
+
+        .services-section .service-card p {
+            font-size: 14px; 
+            margin-bottom: 2px; 
+        }
+  
+  
+    .footer-column ul {
+        padding-left: 70px; /* Adjust the padding for proper alignment */
+    }
+
+    .footer-column.contact-us ul {
+        padding-left: 40px; 
+       font-size: 0.9rem;
+    }
+
+    .footer-column h3 {
+        font-size: 1.9rem;
+    }
+  .any-questions-section form button {
+    font-size: 15px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+   .image1, .image2 {
+        display: none;
+    }
+}
+
+  
+  
+  
+  @media (max-width: 896px) {
+      header { 
+      padding: 36px 190px;
+    font-size: 13px;
+    }
+    
+    nav ul li a {
+    padding: 0 13px;
+}
+.about-section .content {
+  
+    max-width: 700px; /* Maximum width of content */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+
+
+.about-section .experience-list li {
+    font-size: 18px;             
+    color: white;
+    font-weight:100px; 
+    line-height: 1; /* Line height for better readability */
+    margin-bottom: 10px; /* Space between list items */
+    list-style-type: disc; /* Use disc bullets */
+   text-align: left; /* Align text to the left */
+  
+}
+    .about-section h2 {
+  
+    font-size: 45px; /* Heading size */
+}
+
+.about-section p {
+ text-align: justify;
+    font-size: 15px;  
+}
+
+.about-section h3 {
+    font-size: 42px;
+}
+
+.about-section .experience-list li {
+    font-size: 17px;             
+    font-weight:100px; 
+    margin-bottom: 10px; 
+}
+    .any-questions-section form button {
+    font-size: 15px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+    }
+
+
+
+
+
+
+
+@media (max-width: 815px) {
+   .home-section {
+   position: relative;
+
+    padding: 450px 0;
+}
+    .menu-icon {
+        display: block; /* Show on mobile */
+    }
+
+    nav ul {
+        display: none; /* Hide the nav links initially on mobile */
+        background-color: white;
+        width: 30%;
+      height: 500%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 90px 0;
+        z-index: 999;
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    nav ul.active {
+        display: flex; /* Show the nav links when active */
+    }
+
+    .menu-background.active {
+        display: block;
+    }
+
+    .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header {
+      margin-top: 2px;
+      font-size: 25px;
+        padding: 50px;
+       line-height: 2.5; 
+        justify-content: space-between;
+    }
+
+.order-now-button {
+    position: absolute;
+    top: 7px;
+    right: 30px;
+    z-index: 999;
+}
+
+.order-now-button button {
+    background-color: #2E2E2E;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+}
+
+.order-now-button button:hover {
+    background-color: #4B4B4B;
+}
+    .services-section .service-card {
+       
+       font-size: 13px;
+        font-family: 'Inter', sans-serif; 
+          font-weight: 100; /* Bold weight */
+                 color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 170px;
+    height: 230px; 
+    text-align: left;
+    margin-bottom: 30px; 
+}
+
+  
+.circle-overlay {
+    top: 780px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:480px; 
+    height: 480px;
+
+}
+
+
+.circle-overlay-2 {
+    position: absolute; 
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+      width: 700px; 
+    height: 700px;
+}
+
+
+.name {
+    position: absolute;
+    font-size: 55px; /* Increased font size */
+    font-weight: 600; 
+    top: 13%; /* Ensure it's centered vertically */
+    white-space: nowrap;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greeting {
+    position: absolute;
+    font-size: 35px; /* Increased font size */
+    font-weight: 400;
+    top: 70px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.expertise {
+    position: absolute;
+    font-size: 16.5px; /* Increased font size */
+    font-weight: 500; 
+    top: 185px; /* Added top property */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.learn-more {
+    position: absolute;
+    font-size: 24px; /* Increased font size */
+    font-weight: 500; 
+    top: 240px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start-conversation {
+    position: absolute;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 350; 
+    padding: 15px 35px; /* Increased padding */
+    text-decoration: none;
+    font-size: 15px; /* Increased font size */
+    top: 305px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-media {
+    position: absolute;
+    font-family: 'Inter', sans-serif; 
+    font-size: 24px; /* Increased font size */
+    font-weight: 400; 
+    top: 360px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.social-icons {
+    position: absolute;
+    top: 405px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icons a {
+    margin-right: 20px; /* Increased margin */
+}
+
+.social-icons img {
+    width: 32px; /* Increased width */
+    height: auto;
+    filter: grayscale(100%); 
+}
+
+
+
+.myself-image {
+    position: absolute;
+    top: 680px; /* Adjust as needed */
+ left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    width: 430px; /* Adjust the width as needed */
+    height: auto;
+    z-index: 1; /* Ensure the image stays above other content */
+}
+  
+     .services-section h2 {
+            font-size: 50px; /* Heading size */
+            color: black; /* Heading color */
+            margin-top: 0; /* Heading margin top */
+            margin-bottom: 50px; 
+            text-align: center;
+        }
+
+     .services-section .service-card {
+       font-size: 13px;
+        font-family: 'Inter', sans-serif; 
+          font-weight: 190; /* Bold weight */
+                 color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 180px;
+    height: 220px; 
+    text-align: left;
+    margin-bottom: 30px; 
+}
+
+
+        .services-section .service-card h3 {
+           font-family: 'Inter', sans-serif; 
+          font-weight: 400; 
+          margin-top: 0px;
+          color: white;
+            font-size: 20.5px; 
+            margin-bottom: -5px; 
+          
+        }
+
+
+  .portfolio-section {
+    background-image: url('https://i.postimg.cc/02Zbc6NM/CHEAP-BUT-PROFESSIONAL-55.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.portfolio-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.portfolio-images {
+        display: flex;
+        justify-content: flex-start; /* Start the scrolling from the left */
+        gap: 20px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding: 10px;
+        margin-bottom: 40px;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x proximity;
+        scroll-padding: 0 10px;
+        scroll-behavior: smooth; /* Add smooth scrolling behavior */
+    }
+    
+.portfolio-image {
+    flex-shrink: 0;
+    width: 340px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-image:hover {
+    transform: translateY(-10px);
+}
+    
+    .portfolio-images::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+    }
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -60px;
+}
+
+.arrow {
+  
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    cursor: pointer;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.left-arrow {
+    background-image: url('https://i.postimg.cc/RhQHsDnQ/image.png');
+}
+
+.right-arrow {
+    background-image: url('https://i.postimg.cc/G2v8t5zw/image.png');
+}
+
+  
+  .any-questions-section form button {
+    font-size: 15px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+
+
+  .order-now-section .order-on-fiverr {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 26px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -180px; /* Adjust vertical position */
+    left: 26px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-graphics-design {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -160px; /* Adjust vertical position */
+    left: -250px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-web-development {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -200px; /* Adjust vertical position */
+    left: -5px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-excel-services{
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -240px; /* Adjust vertical position */
+    left: 260px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+
+.click-here-buttons .click-here {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+  font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    margin: 0 70px; /* Adjust spacing between buttons */
+}
+  .image-1 {
+    background-image: url('https://i.postimg.cc/Wp8KyvJy/Graphics-Design-2.png');
+}
+
+.image-1:hover {
+    background-image: url('https://i.postimg.cc/Wp8KyvJy/Graphics-Design-2.png');
+}
+
+.image-2 {
+    background-image: url('https://i.postimg.cc/B6H8vp28/Graphics-Design-1.png');
+}
+
+.image-2:hover {
+    background-image: url('https://i.postimg.cc/B6H8vp28/Graphics-Design-1.png');
+}
+
+.image-3 {
+    background-image: url('https://i.postimg.cc/cCFbtRSW/Graphics-Design.png');
+}
+
+.image-3:hover {
+    background-image: url('https://i.postimg.cc/cCFbtRSW/Graphics-Design.png');
+}
+
+   
+}
+
+
+
+
+
+
+
+
+@media (max-width: 780px) {
+        .menu-icon {
+        display: block; /* Show on mobile */
+    }
+
+    nav ul {
+        display: none; /* Hide the nav links initially on mobile */
+        background-color: white;
+        width: 30%;
+      height: 500%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 90px 0;
+        z-index: 999;
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    nav ul.active {
+        display: flex; /* Show the nav links when active */
+    }
+
+    .menu-background.active {
+        display: block;
+    }
+
+    .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header {
+      margin-top: 2px;
+      font-size: 25px;
+        padding: 50px;
+       line-height: 2.5; 
+        justify-content: space-between;
+    }
+
+.order-now-button {
+    position: absolute;
+    top: 7px;
+    right: 30px;
+    z-index: 999;
+}
+
+.order-now-button button {
+    background-color: #2E2E2E;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 30px;
+}
+
+.order-now-button button:hover {
+    background-color: #4B4B4B;
+}
+    .services-section .service-card {
+       
+       font-size: 13px;
+        font-family: 'Inter', sans-serif; 
+          font-weight: 100; /* Bold weight */
+                 color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 170px;
+    height: 230px; 
+    text-align: left;
+    margin-bottom: 30px; 
+}
+
+        .services-section .service-card h3 {
+            font-family: 'Inter', sans-serif; 
+          font-weight: 250; 
+        margin-top: 0px;
+            font-size: 19px; /* Card heading size */
+            margin-bottom: -10px;
+        }
+
+        .services-section .service-card p {
+            
+            font-size: 15px; 
+            margin-bottom: 2px; 
+        }
+  
+   .order-now-section .order-on-fiverr {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 26px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -180px; /* Adjust vertical position */
+    left: 26px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-graphics-design {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -160px; /* Adjust vertical position */
+    left: -230px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-web-development {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -200px; /* Adjust vertical position */
+    left: -5px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section .for-excel-services{
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 17px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -240px; /* Adjust vertical position */
+    left: 230px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+
+.click-here-buttons .click-here {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    margin: 0 60px; /* Adjust spacing between buttons */
+}
+
+  
+  
+  
+  @media (max-width: 768px) {
+
+.home-section {
+    position: relative;
+    padding: 455px 0;
+    overflow: hidden; /* Ensure no overflow */
+}
+/* Add your image URLs and hover states below */
+
+    .about-section .content {
+  
+    max-width: 550px; /* Maximum width of content */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+    .about-section h2 {
+    font-family: 'Inter', sans-serif; 
+          font-weight: 500; 
+    font-size: 45px; /* Heading size */
+}
+
+.about-section p {
+    font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+ text-align: justify;
+    font-size: 15px;  
+}
+
+.about-section h3 {
+    font-family: 'Inter', sans-serif; 
+          font-weight: 400; 
+    font-size: 42px;
+}
+
+.about-section .experience-list li {
+    font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+    font-size: 17px;             
+    font-weight:100px; 
+    margin-bottom: 10px; 
+}
+        .services-section h2 {
+            font-family: 'Inter', sans-serif; 
+          font-weight: 500; 
+            font-size: 50px; /* Heading size */
+            color: black; /* Heading color */
+            margin-top: 0; /* Heading margin top */
+            margin-bottom: 30px; 
+          margin-top: 30px; 
+            text-align: center;
+        }
+
+     .services-section .service-card {
+       
+       font-size: 13px;
+        font-family: 'Inter', sans-serif; 
+          font-weight: 100; /* Bold weight */
+                 color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px; 
+    width: 170px;
+    height: 230px; 
+    text-align: left;
+    margin-bottom: 30px; 
+}
+
+
+        .services-section .service-card h3 {
+           font-family: 'Inter', sans-serif; 
+          font-weight: 400; 
+          margin-top: 0px;
+          color: white;
+            font-size: 19.5px; 
+            margin-bottom: -5px; 
+          
+        }
+    
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        margin: 1rem 0;
+    }
+
+    .footer-column ul {
+        padding-left: 40px; /* Adjust padding for smaller screens */
+    }
+.footer-column.contact-us ul {
+    list-style-type: none; 
+    padding-left: 260px; 
+}
+
+ 
+    .footer-image {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 25%; /* Ensure the image is responsive */
+    z-index: -1; /* Ensure the image is behind the text but above the background */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+
+        position: static;
+        transform: none;
+        margin: 10px 0px;
+    }
+}
+  
+     @media (max-width:  680px) {
+       .order-now-section {
+       background-image: url('https://i.postimg.cc/3R4rXTrd/CHEAP-BUT-PROFESSIONAL-33-1.png');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Do not repeat the background */
+
+    text-align: center;
+    padding: 140px 0px; /* Adjusted padding */
+}
+       .order-now-section h2 {
+         margin-top: 100px;
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 50px; /* Adjust font size as needed */
+    font-weight: 600; /* Bold weight */
+    color: black; /* Text color */
+    margin-bottom: 10px; /* Space below heading */
+    position: relative; /* Position absolutely */
+    /* Adjust the following as needed */
+    top: -210px; /* Vertical position */
+    left: 20px; /* Horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+
+.order-now-section p {
+   font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: 400; /* Bold weight */
+    color: black; /* Text color */
+    margin-bottom: 10px; /* Space below heading */
+    position: relative; /* Position absolutely */
+    /* Adjust the following as needed */
+    top: -220px; /* Vertical position */
+    left: 40px; /* Horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+       .order-now-section .order-on-fiverr {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 26px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -180px; /* Adjust vertical position */
+    left: 26px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+         margin-top: 10px;
+}
+       
+          .click-here-buttons {
+    display: flex;
+    flex-direction: column; /* Arrange buttons vertically */
+    align-items: center; /* Center align buttons horizontally */
+}
+
+.click-here-buttons .click-here {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    margin-bottom: 60px; /* Adjust vertical spacing between buttons */
+}
+       
+       .portfolio-image {
+    flex-shrink: 0;
+    width: 320px;
+    height: 330px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+       
+     .order-now-section .for-graphics-design,
+.order-now-section .for-web-development,
+.order-now-section .for-excel-services {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    left: 0px; /* Adjust horizontal position */
+    z-index: 1;
+}
+
+.order-now-section .for-graphics-design {
+    top: -160px; /* Adjust vertical position */
+}
+
+.order-now-section .for-web-development {
+    top: -100px; /* Adjust vertical position */
+}
+
+.order-now-section .for-excel-services {
+    top: -40px; /* Adjust vertical position */
+}
+      
+       .order-now-section .chat-whatsapp-button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 6px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    display: inline-block; /* Ensures the button styles apply correctly */
+    margin-top: -30px; /* Adjusted to move the button upward */
+    margin-bottom: 10px; /* Space below the button */
+    position: relative; /* Position absolutely */
+    top: -195px; /* Adjust vertical position */
+    left: 0px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the button is above other content */
+}
+       
+       .any-questions-section {
+    background-color: none;
+    padding: 200px 0px 0px; /* Adjusted bottom padding */
+}
+
+.any-questions-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    top: -190px; /* Adjusted vertical position */
+    left: 20px;
+    z-index: 1;
+}
+
+.any-questions-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    top: -200px; /* Adjusted vertical position */
+    left: 10px;
+    z-index: 1;
+}
+
+.any-questions-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.any-questions-section form .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 120%;
+    margin-top: -170px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.any-questions-section form .input-group input {
+    width: 100%;
+}
+
+.any-questions-section form .input-group input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #6F6F6F;
+    color: white;
+    border-radius: 20px;
+}
+
+.any-questions-section form textarea {
+    width: 60%;
+    height: 130px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #6F6F6F;
+    color: white;
+    margin-top: 10px;
+}
+       .footer-column.contact-us ul {
+    list-style-type: none; 
+    padding-left: 220px; 
+}
+
+  }
+  
+   @media (max-width:  580px) {
+       .order-now-section h2 {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 45px; /* Adjust font size as needed */
+    font-weight: 600; /* Bold weight */
+}
+
+.order-now-section p {
+   font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: 400; /* Bold weight */
+    color: black; /* Text color */
+    margin-bottom: 10px; /* Space below heading */
+    position: relative; /* Position absolutely */
+    /* Adjust the following as needed */
+    top: -220px; /* Vertical position */
+    left: 10px; /* Horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+       .order-now-section .order-on-fiverr {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 26px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -180px; /* Adjust vertical position */
+    left: 10px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+       
+          .click-here-buttons {
+    display: flex;
+    flex-direction: column; /* Arrange buttons vertically */
+    align-items: center; /* Center align buttons horizontally */
+}
+
+.click-here-buttons .click-here {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    margin-bottom: 60px; /* Adjust vertical spacing between buttons */
+}
+     
+     .portfolio-image {
+    flex-shrink: 0;
+    width: 300px;
+    height: 310px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease;
+}
+     
+     .order-now-section .for-graphics-design,
+.order-now-section .for-web-development,
+.order-now-section .for-excel-services {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    left: 0px; /* Adjust horizontal position */
+    z-index: 1;
+}
+
+.order-now-section .for-graphics-design {
+    top: -160px; /* Adjust vertical position */
+}
+
+.order-now-section .for-web-development {
+    top: -100px; /* Adjust vertical position */
+}
+
+.order-now-section .for-excel-services {
+    top: -40px; /* Adjust vertical position */
+  
+}
+     
+     .about-section .content {
+    max-width: 400px; /* Maximum width of content */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+    .about-section h2 {
+    font-size: 45px; /* Heading size */
+}
+
+.about-section p {
+  font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+ text-align: justify;
+    font-size: 13px;  
+}
+
+.about-section h3 {
+  margin-top: -10px;
+    font-size: 37px;
+}
+
+.about-section .experience-list li {
+     font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+  margin-left: -40px;
+    font-size: 15px;             
+    font-weight:100px; 
+    margin-bottom: 10px; 
+}
+      
+       .services-section .service-cards {
+            display: flex; /* Use flexbox for layout */
+            justify-content: left; /* Center the cards horizontally */
+            flex-wrap: wrap; /* Allow wrapping of cards */
+            gap: 10px; /* Space between cards */
+        }
+
+    
+.services-section .service-card {
+   list-style: none; 
+  line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 240px; 
+    height: 270px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+  .services-section h2 {
+            font-size: 40px; /* Heading size */
+ font-family: 'Inter', sans-serif;
+    font-weight: 550;
+            color: black; /* Heading color */
+            margin-top: 10; /* Heading margin top */
+            margin-bottom: 30px; /* Space between heading and cards */
+            text-align: center; /* Center the heading text */
+        }
+
+        .services-section .service-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center; /* Center the heading */
+}
+     .services-section .service-card p {
+    font-size: 13px;
+    margin-bottom: 2px;
+    text-align: left; /* Align text from the left */
+    width: 100%; /* Ensure paragraph takes full width */
+    margin: 0; /* Remove extra margin */
+    padding: 0 20px; /* Adjust padding to move text to the right */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+}
+
+    
+
+         .services-section .service-cards {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center cards */
+    }
+
+    .services-section .service-card {
+        width: 80%; /* Increase width */
+        height: auto; /* Adjust height to fit content */
+        margin-bottom: 20px; /* Space between cards */
+      
+    }
+   
+       .footer-column.contact-us ul {
+    list-style-type: none; 
+    padding-left: 150px; 
+}
+    
+}
+ 
+  
+  
+  @media (max-width:  480px) {
+    
+     .menu-icon {
+        display: block; /* Show on mobile */
+    }
+
+    nav ul {
+        display: none; /* Hide the nav links initially on mobile */
+        background-color: white;
+        width: 30%;
+      height: 500%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 90px 0;
+        z-index: 999;
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    nav ul.active {
+        display: flex; /* Show the nav links when active */
+    }
+
+    .menu-background.active {
+        display: block;
+    }
+
+    .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header {
+      margin-top: 2px;
+      font-size: 25px;
+        padding: 50px;
+       line-height: 2.5; 
+        justify-content: space-between;
+    }
+      .order-now-button {
+
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    z-index: 999; /* Ensure button stays on top */
+}
+    
+  .order-now-button button {
+    background-color: #2E2E2E;
+    border: none;
+    color: white;
+    padding: 13px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+}
+
+.order-now-button button:hover {
+    background-color:#4B4B4B;
+}
+  .home-section {
+   position: relative;
+
+    padding: 400px 0;
+}
+
+  
+.circle-overlay {
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:400px; 
+    height: 400px;
+
+}
+
+
+.circle-overlay-2 {
+    position: absolute; 
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+      width: 600px; 
+    height: 600px;
+}
+
+
+.name {
+    position: absolute;
+    font-size: 45px; /* Increased font size */
+    font-weight: 600; 
+    top: 10%; /* Ensure it's centered vertically */
+    white-space: nowrap;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greeting {
+    position: absolute;
+    font-size: 35px; /* Increased font size */
+    font-weight: 400;
+    top: 50px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.expertise {
+    position: absolute;
+    font-size: 14.5px; /* Increased font size */
+    font-weight: 500; 
+    top: 150px; /* Added top property */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.learn-more {
+    position: absolute;
+    font-size: 24px; /* Increased font size */
+    font-weight: 500; 
+    top: 200px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.start-conversation {
+    position: absolute;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 350; 
+  border-radius: 30px;
+    padding: 15px 30px; /* Increased padding */
+    text-decoration: none;
+    font-size: 14px; /* Increased font size */
+    top: 260px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-media {
+    position: absolute;
+    font-family: 'Inter', sans-serif; 
+    font-size: 24px; /* Increased font size */
+    font-weight: 400; 
+    top: 310px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.social-icons {
+  white-space: nowrap;
+    position: absolute;
+    top: 355px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icons a {
+    margin-right: 10px; /* Increased margin */
+}
+
+.social-icons img {
+    width: 35px; /* Increased width */
+    height: auto;
+    filter: grayscale(100%); 
+}
+
+
+
+.myself-image {
+    position: absolute;
+    top: 590px; /* Adjust as needed */
+ left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    width: 350px; /* Adjust the width as needed */
+    height: auto;
+    z-index: 1; /* Ensure the image stays above other content */
+}
+    
+   
+    .about-section h2 {
+    font-size: 40px; /* Heading size */
+}
+
+.about-section p {
+  font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+ text-align: justify;
+    font-size: 10px;  
+}
+
+.about-section h3 {
+  margin-top: -10px;
+    font-size: 30px;
+}
+
+.about-section .experience-list li {
+     font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+  margin-left: -40px;
+    font-size: 12px;             
+    font-weight:100px; 
+    margin-bottom: 10px; 
+} 
+     .footer-column.contact-us ul {
+    list-style-type: none; 
+    padding-left: 110px; 
+} 
+  }
+    
+    
+    
+     @media (max-width:  400px) {
+          .menu-icon {
+        display: block; /* Show on mobile */
+    }
+
+    nav ul {
+        display: none; /* Hide the nav links initially on mobile */
+        background-color: white;
+        width: 30%;
+      height: 500%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 90px 0;
+        z-index: 999;
+        flex-direction: column; /* Stack the links vertically */
+    }
+
+    nav ul.active {
+        display: flex; /* Show the nav links when active */
+    }
+
+    .menu-background.active {
+        display: block;
+    }
+
+    .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header {
+      margin-top: 2px;
+      font-size: 25px;
+        padding: 50px;
+       line-height: 2.5; 
+        justify-content: space-between;
+    }
+       
+       
+      .order-now-button {
+display: none;
+}
+   
+
+  .home-section {
+   position: relative;
+
+    padding: 400px 0;
+}
+
+  
+.circle-overlay {
+    top: 715px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 380px; 
+    height: 380px;
+
+}
+
+
+.circle-overlay-2 {
+    position: absolute; 
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+      width: 600px; 
+    height: 600px;
+}
+
+
+.name {
+    position: absolute;
+    font-size: 37px; /* Increased font size */
+    font-weight: 600; 
+    top: 10%; /* Ensure it's centered vertically */
+    white-space: nowrap;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.greeting {
+    position: absolute;
+    font-size: 30px; /* Increased font size */
+    font-weight: 400;
+    top: 50px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.expertise {
+    position: absolute;
+    font-size: 12.5px; /* Increased font size */
+    font-weight: 500; 
+    top: 140px; /* Added top property */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.learn-more {
+    position: absolute;
+    font-size: 24px; /* Increased font size */
+    font-weight: 500; 
+    top: 190px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.start-conversation {
+    position: absolute;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 350; 
+  border-radius: 30px;
+    padding: 15px 30px; /* Increased padding */
+    text-decoration: none;
+    font-size: 12px; /* Increased font size */
+    top: 250px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-media {
+    position: absolute;
+    font-family: 'Inter', sans-serif; 
+    font-size: 23px; /* Increased font size */
+    font-weight: 400; 
+    top: 300px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.social-icons {
+  white-space: nowrap;
+    position: absolute;
+    top: 345px; /* Adjusted to move further upward */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icons a {
+    margin-right: 10px; /* Increased margin */
+}
+
+.social-icons img {
+    width: 35px; /* Increased width */
+    height: auto;
+    filter: grayscale(100%); 
+}
+
+
+
+.myself-image {
+    position: absolute;
+    top: 600px; /* Adjust as needed */
+ left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    width: 350px; /* Adjust the width as needed */
+    height: auto;
+    z-index: 1; /* Ensure the image stays above other content */
+}
+       
+       
+       .about-section p {
+  font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+ text-align: justify;
+    font-size: 8px;  
+}
+
+.about-section h3 {
+  margin-top: -10px;
+   margin-bottom: -10px; 
+    font-size: 30px;
+}
+
+.about-section .experience-list li {
+     font-family: 'Inter', sans-serif; 
+          font-weight: 200; 
+  margin-left: -60px;
+    font-size: 11px;             
+    font-weight:100px; 
+    margin-bottom: 10px; 
+} 
+  .about-section .content {
+  
+    max-width: 300px; /* Maximum width of content */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+  
+  
+       .any-questions-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    top: -190px; /* Adjusted vertical position */
+    left: 20px;
+    z-index: 1;
+}
+
+.any-questions-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+  text-align: center;
+    top: -200px; /* Adjusted vertical position */
+    left: 10px;
+    z-index: 1;
+}
+          .order-now-section h2 {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 35px; /* Adjust font size as needed */
+    font-weight: 600; /* Bold weight */
+}
+
+.order-now-section p {
+   font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 15px; /* Adjust font size as needed */
+    font-weight: 400; /* Bold weight */
+    color: black; /* Text color */
+    margin-bottom: 10px; /* Space below heading */
+    position: relative; /* Position absolutely */
+    /* Adjust the following as needed */
+    top: -220px; /* Vertical position */
+    left: 10px; /* Horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+}
+       .order-now-section .order-on-fiverr {
+    font-family: 'Inter', sans-serif; /* Use Inter font */
+    font-size: 22px; /* Adjust font size as needed */
+    font-weight: 500; /* Regular weight */
+    color: black; /* Text color */
+    position: relative; /* Position absolutely */
+    top: -200px; /* Adjust vertical position */
+    left: 10px; /* Adjust horizontal position */
+    z-index: 1; /* Ensure the text is above other content */
+         margin-bottom: -30px;
+}
+        .footer-column.contact-us ul {
+    list-style-type: none; 
+    padding-left: 40px; 
+}
+  }
